@@ -1,8 +1,12 @@
 /*Page Stuff*/
 body{
   margin: 0;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: sans-serif;Lucida Grande;
 }
+h1{
+  text-align: center;
+}
+
 
 .container{
     box-sizing: border-box;
