@@ -29,17 +29,22 @@ h1{
 /*Uppermost Secondary Nav*/
 .top {
   background-color: #000000;
-  height: 20px;
+  height: 18px;
   width: 100%;
   padding-top: 5px;
   text-align: right;
-  border-bottom-color: #FEE834
+}
+
+.topborder{
+  width: 100%;
+  height: 8px;
+  background-color:#FEE834;
 }
 
 .top a{
   text-decoration: none;
-  font-family: sans-serif;Lucida Grande;
-  font-size: 12px;
+  font-family: Lucida Grande; Helvetica; sans-serif;
+  font-size: 12pt;
   color: #ffffff;
   padding-left: 10px;
 }
@@ -50,11 +55,7 @@ h1{
 }
 
 
-.topborder{
-  width: 100%;
-  height: 13px;
-  background-color:#FEE834;
-}
+
 
 .headerleft{
   width: 50%;
@@ -68,7 +69,7 @@ h1{
   text-align: right;
 }
 
-/*Main Nav*/
+
 header{
   width: 100%;
   background-color: #ffffff;
@@ -78,21 +79,74 @@ header{
   text-align: center;
 }
 
-.nav a {
+/*Main Nav*/
+
+/*DROPDOWN FUNCTIONALITY*/
+ul {
+	padding:0;
+	margin:0
+}
+
+#nav a {
+	display:block;
+	text-decoration: none;
+}
+
+li {
+	display:block;
+	float:left;
+}
+
+li ul li {
+	float:none;
+}
+
+li ul {
+	display:none;
+	position:absolute;
+	z-index:1
+}
+
+li:hover ul {
+	display:block;
+}
+
+/*DROPDOWN STYLING:*/
+#nav{
+
+  justify-content: space-between;
+}
+
+#nav a {
   color: #000000;
   margin-top: 20px;
   width: 100%;
-  font-family: sans-serif;Lucida Grande;
+  font-family: Lucida Grande; Helvetica; sans-serif;
   font-weight: normal;
-  font-size: 16px;
-  text-align: center;
+  font-size: 16pt;
+  text-align: left;
   text-decoration: none;
 }
 
-.nav a:hover{
+#nav a:hover{
   color:#FEE834;
   text-decoration: underline;
 }
+
+}
+#nav li {
+	background-color:#FFF;
+	border:solid 1px #CCC;
+	margin-left:-1px;
+}
+#nav li:hover {
+
+}
+
+#nav ul{
+  background-color: rgba(360, 360, 360, 0.5);
+}
+
 
 .boxbreak{
   width: 100%;
@@ -110,21 +164,39 @@ header{
   overflow: hidden;
   height: 100%;
   width: 100%;
+  font-family: Lucida Grande; Helvetica; sans-serif;
 }
 
 .features{
 
 }
 
+/*About Text*/
+.About{
+  width: 485px;
+  float: right;
+}
+
+.AboutLeft{
+  width: 485px;
+  float: left;
+}
 
 /*Globbal Footer*/
   /*Subscribe FORM*/
 .subscribe{
   text-align: center;
-  font-family: sans-serif;Lucida Grande;
+  font-family: Lucida Grande; Helvetica; sans-serif;
   font-size: 12px;
   color: #000000;
   padding-bottom: 2px;
+  margin-top: 20px;
+
+}
+
+
+form input:active{
+  background: #FEE834;
 
 }
 
@@ -159,8 +231,8 @@ footer{
 .footnav a{
   text-decoration: none;
   color: #ffffff;
-  font-family: sans-serif;Lucida Grande;
-  font-size: 10pt;
+  font-family: Lucida Grande; Helvetica; sans-serif;
+  font-size: 12pt;
 }
 
 .footnav a:hover{
@@ -177,8 +249,7 @@ footer{
   margin-left: 15px;
 }
 
-#socialmedia a:hover{
-  /* color doesn't work;
-  wouold have to replace the
-  image on hover>*/
+#socialmedia:hover{
+  text-decoration: underline;
+  color: #FEE834;
 }
