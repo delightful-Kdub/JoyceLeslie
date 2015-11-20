@@ -144,7 +144,8 @@ li:hover ul {
 }
 
 #nav ul{
-  background-color: rgba(360, 360, 360, 0.5);
+  background-color: rgba(360, 360, 360, 0.8);
+  padding: 5px 0px 5px 5px;
 }
 
 
@@ -195,8 +196,8 @@ li:hover ul {
 }
 
 
-form input:active{
-  background: #FEE834;
+form input{
+  margin: 5px;
 
 }
 
@@ -233,6 +234,7 @@ footer{
   color: #ffffff;
   font-family: Lucida Grande; Helvetica; sans-serif;
   font-size: 12pt;
+  line-height: 25px;
 }
 
 .footnav a:hover{
