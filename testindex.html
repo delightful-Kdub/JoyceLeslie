@@ -9,12 +9,12 @@
   <div class="top">
     <div class="container flex space-between">
       <div class="headerleft">
-        <a href="About.html">About</a>
-        <a href="#">Locations</a>
+        <a href="about.html">About</a>
+        <a href="locations.html">Locations</a>
       </div>
       <div class="headerright">
-        <a href="#">LookBook</a>
-        <a href="#">Wish List<a>
+        <a href="lookbook.html">LookBook</a>
+        <a href="wishlist.html">Wish List<a>
       </div>
     </div>
   </div>
@@ -26,14 +26,14 @@
       </div>
       <ul id="nav" class="flex container">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Tops</a>
+          <li><a href="Gallery.html">Tops</a>
             <ul>
-              <li><a href='Gallery.html'>Tees</a></li>
+              <li><a href='#'>Tees</a></li>
               <li><a href='#'>Blouses</a></li>
               <li><a href='#'>Sweaters</a></li>
             </ul>
           </li>
-          <li><a href="#">Bottoms</a>
+          <li><a href="Gallery.html">Bottoms</a>
             <ul>
               <li><a href='#'>Jeans</a></li>
               <li><a href='#'>Pants</a></li>
@@ -41,7 +41,7 @@
               <li><a href='#'>Skirts</a></li>
             </ul>
           </li>
-          <li><a href="#">Shoes</a>
+          <li><a href="Gallery.html">Shoes</a>
             <ul>
               <li><a href='#'>Flats</a></li>
               <li><a href='#'>Heels</a></li>
@@ -49,7 +49,7 @@
               <li><a href='#'>Boots</a></li>
             </ul>
           </li>
-          <li><a href="#">Accessories</a>
+          <li><a href="Gallery.html">Accessories</a>
             <ul>
               <li><a href='#'>Necklaces</a></li>
               <li><a href='#'>Earrings</a></li>
@@ -58,8 +58,8 @@
               <li><a href='#'>Bags</a></li>
             </ul>
           </li>
-          <li><a href="#">Swimwear</a></li>
-          <li><a href="#">Sale</a>
+          <li><a href="Gallery.html">Swimwear</a></li>
+          <li><a href="Gallery.html">Sale</a>
             <ul>
               <li><a href='#'>Tops</a></li>
               <li><a href='#'>Bottoms</a></li>
@@ -73,24 +73,47 @@
   <div class="boxbreak"></div>
 
   <div class="body space-between">
-      <div class="container flex">
-        <img src="assets/NewArrivals.png" width="900px" height="491px"/>
-      </div>
-      <div class="features container space-between flex">
+    <div class="container flex">
+       <div id="content-slider">
+          <div id="slider">  <!-- Slider container -->
+             <div id="mask">  <!-- Mask -->
+
+             <ul>
+             <li id="first" class="firstanimation">  <!-- ID for tooltip and class for animation -->
+             <img src="assets/NewArrivals.png" width="900px" height="491px"/>
+             </li>
+
+             <li id="second" class="secondanimation">
+               <img src="assets/30offsuede.png" width="900px" height="491px"/>
+             </li>
+
+             <li id="third" class="thirdanimation">
+               <img src="assets/bundleup.png" width="900px" height="491px"/>
+             </li>
+             </ul>
+
+             </div>  <!-- End Mask -->
+             <div class="progress-bar"></div>  <!-- Progress Bar -->
+          </div>  <!-- End Slider Container -->
+       </div>
+    </div>
+    <div class="features container ">
+      <div class="space-between flex">
         <img src="assets/ThePartyStartsHere.png" width="525px" height="224px"/>
         <img src="assets/OutterwearSale.png" width="365px" height="224px"/>
       </div>
-      <div class="features container space-between flex">
+      <div class="space-between flex">
         <img src="assets/bootsale.png" width="365px" height="224px"/>
         <img src="assets/everygirl.png" width="525px" height="224px"/>
       </div>
     </div>
+  </div>
 
   <div class="subscribe container">
     <b>Subscribe to for Sales and VIP Offers!</b>
     <form action="demo_form.asp" method="get">
       <input type="email" placeholder="email" name="email">
-      <input type="date" name="bday">
+      <input type="date" placeholder="birthday mm/dd/yyyy"name="bday">
       <input id="Join" type="Submit" value="Join!">
     </form>
 
@@ -100,17 +123,17 @@
 <div class="boxbreakchild"></div>
 <footer>
   <div class="footnav container">
-    <a href="About.html">About</a><br>
-    <a href="#">Locations</a><br>
-    <a href="Policies.html">Policies</a><br>
-    <a href="#">Contact Us</a><br>
-    <a href="#">Careers<a><br>
+    <a href="about.html">About</a><br>
+    <a href="locations.html">Locations</a><br>
+    <a href="policies.html">Policies</a><br>
+    <a href="contact.html">Contact Us</a><br>
+    <a href="careers.html">Careers<a><br>
   </div>
   <div id="socialmedia" class="container space-between">
-    <a href="#"><img src="assets/facebookwhite.png" width="10px" height="25px"/></a>
-    <a href="#"><img src="assets/twitterwhite.png" width="32px" height"25px"></a>
-    <a href="#"><img src="assets/instagramwhite.png" width="25px" height"25px"></a>
-    <a href="#"><img src="assets/google pluswhite.png" width="30px" height"25px"></a>
+    <a href="https://www.facebook.com/ShopJoyceLeslie" target="_blank"><img src="assets/facebookwhite.png" width="10px" height="25px"/></a>
+    <a href="https://twitter.com/joyceleslie" target="_blank"><img src="assets/twitterwhite.png" width="32px" height"25px"></a>
+    <a href="https://www.instagram.com/joyceleslie/" target="_blank"><img src="assets/instagramwhite.png" width="25px" height"25px"></a>
+    <a href="https://plus.google.com/+joyceleslie/posts" target="_blank"><img src="assets/google pluswhite.png" width="30px" height"25px"></a>
   </div>
 </footer>
 
