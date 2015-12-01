@@ -9,6 +9,7 @@ h1{
 }
 
 
+
 .container{
     box-sizing: border-box;
     margin: 0 auto;
@@ -215,6 +216,14 @@ li:hover ul {
    animation: cyclethree 25s linear infinite;
 }
 
+#slider li.fourthanimation {
+   animation: cyclefour 25s linear infinite;
+}
+
+#slider li.fifthanimation {
+   animation: cyclefive 25s linear infinite;
+}
+
 
 /* ANIMATION */
 
@@ -251,6 +260,24 @@ li:hover ul {
    100%{ top: -325px; opacity: 0; z-index: -1; }
 }
 
+@keyframes cyclefour {
+   0%  { top: -325px; opacity: 0; }
+   56% { top: -325px; opacity: 0; }
+   60% { top: 0px; opacity: 1; }
+   64% { top: 0px; opacity: 1; }
+   76% { top: 0px; opacity: 1; z-index: 0; }
+   80% { top: 325px; opacity: 0; z-index: 0; }
+   81% { top: -325px; opacity: 0; z-index: -1; }
+   100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+@keyframes cyclefive {
+   0%  { top: -325px; opacity: 0; }
+   76% { top: -325px; opacity: 0; }
+   80% { top: 0px; opacity: 1; }
+   84% { top: 0px; opacity: 1; }
+   96% { top: 0px; opacity: 1; z-index: 0; }
+   100%{ top: 325px; opacity: 0; z-index: 0; }
+}
 
 /* END CAROUSEL*/
 
@@ -367,15 +394,47 @@ div.desc {
 
 /*end Contact Page*/
 
+
+
+
+/*WISH LIST page*/
+th{
+  text-align: left;
+
+}
+
+.specifics{
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Wish List Page*/
+
+
 /*Globbal Footer*/
   /*Subscribe FORM*/
 .subscribe{
+  background: #FFFFFF;
+  position: #;
   text-align: center;
   font-family: Lucida Grande; Helvetica; sans-serif;
   font-size: 12px;
   color: #000000;
   padding-bottom: 2px;
   margin-top: 0px;
+  width: 100%;
 
 }
 
@@ -404,15 +463,23 @@ form input{
 
 
 footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 30px;
   width: 100%;
   background-color: #000000;
-  padding-top: 25px;
+
   padding-bottom: 70px;
   flex: auto;
 }
 
 
 /* footer nav*/
+.footnav{
+  margin-top: 25px;
+}
+
 .footnav a{
   text-decoration: none;
   color: #ffffff;
