@@ -1,14 +1,30 @@
+
+      /*FOR DESKTOP*/
 /*Page Stuff*/
 body{
   margin: 0;
-  font-family: sans-serif;Lucida Grande;
+  font-family: Lucida Grande; sans-serif;
 }
 h1{
   text-align: center;
-  font-family: sans-serif;Lucida Grande;
+  font-family: Lucida Grande; sans-serif;
+  font-size: 24pt;
 }
 
+h2{
+  font-size: 18pt;
+  font-family: Lucida Grande; sans-serif;
+}
 
+h3{
+  font-size: 14pt;
+  font-family: Lucida Grande; sans-serif;
+}
+
+p{
+  font-size: 12pt;
+  font-family: Lucida Grande; sans-serif;
+}
 
 .container{
     box-sizing: border-box;
@@ -463,7 +479,7 @@ form input{
 
 
 footer{
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   margin-top: 30px;
@@ -505,4 +521,200 @@ footer{
 #socialmedia a:hover{
   text-decoration: underline;
   color: #FEE834;
+}
+
+
+
+
+
+
+/*******************************************
+
+RESPONSIVE STUFF
+
+*******************************************/
+
+
+
+/*********TABLET*************************/
+
+
+
+@media screen and (max-width: 850px) {
+      /*FOR TABLET*/
+
+/*Global style*/
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 650px;
+    background-size: contain;
+
+}
+
+.top a{
+  font-size: 12pt;
+}
+
+#nav a{
+  font-size: 14pt;
+}
+
+.boxbreakchild{
+  margin-bottom: 30px;
+}
+
+.footnav a{
+  font-size: 12pt;
+  line-height: 35px;
+}
+
+
+
+
+/*Index style*/
+  /*image carousel*/
+    /*slider structure*/
+  #slider {
+     height: 354px;
+     width: 650px;
+     overflow: visible;
+     position: relative;
+  }
+
+    /* HIDE ALL OUTSIDE OF THE SLIDER */
+
+  #mask {
+     overflow: hidden;
+     height: 354px;
+  }
+
+    /* IMAGE LIST */
+
+  #slider ul {
+     margin: 0;
+     padding: 0;
+     position: relative;
+  }
+
+  #slider li {
+     width: 680px;  /* Width Image */
+     height: 320px; /* Height Image */
+     position: absolute;
+     top: -325px; /* Original Position - Outside of the Slider */
+     list-style: none;
+  }
+
+#mask img{
+  width: 650px;
+  height: 354px;
+}
+
+.largefeature{
+  width: 378px;
+  height: 161px;
+}
+
+.smallfeature{
+  width: 262px;
+  height: 161px;
+}
+
+
+}
+
+
+/*******SMALL TABLET*************************/
+
+@media screen and (max-width: 600px) {
+      /*FOR SMALL TABLET*/
+
+      /*Global style*/
+      .container{
+          box-sizing: border-box;
+          margin: 0 auto;
+          width: 500px;
+          background-size: contain;
+
+      }
+
+      .top a{
+        font-size: 10pt;
+      }
+
+      #nav a{
+        font-size: 12pt;
+      }
+
+      .footnav a{
+        font-size: 10pt;
+      }
+
+      /*Index style*/
+        /*image carousel*/
+          /*slider structure*/
+        #slider {
+           height: 276px;
+           width: 500px;
+           overflow: visible;
+           position: relative;
+        }
+
+          /* HIDE ALL OUTSIDE OF THE SLIDER */
+
+        #mask {
+           overflow: hidden;
+           height: 276px;
+        }
+
+          /* IMAGE LIST */
+
+        #slider ul {
+           margin: 0;
+           padding: 0;
+           position: relative;
+        }
+
+        #slider li {
+           width: 680px;  /* Width Image */
+           height: 320px; /* Height Image */
+           position: absolute;
+           top: -325px; /* Original Position - Outside of the Slider */
+           list-style: none;
+        }
+
+      #mask img{
+        width: 500px;
+        height: 276px;
+      }
+
+      .largefeature{
+        width: 291px;
+        height: 123px;
+      }
+
+      .smallfeature{
+        width: 202px;
+        height: 123px;
+      }
+
+
+      }
+
+
+
+
+
+
+
+
+/*******MOBILE*************************/
+
+@media screen and (max-width: 480px) {
+      /*FOR MOBILE*/
+
+
+
+
+
 }
