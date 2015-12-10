@@ -297,9 +297,12 @@ li:hover ul {
 
 /* END CAROUSEL*/
 
-.features{
+.features{}
 
+#mobilenav{
+  display: none;
 }
+
 
 /*Category Banner*/
 
@@ -901,6 +904,20 @@ RESPONSIVE STUFF
               height: 123px;
             }
 
+            .features{
+              display: none;
+            }
+
+            #mobilenav{
+              display: block;
+
+            }
+
+            #mobilenav img{
+              width: 100%;
+              height: auto;
+            }
+
             /*about style*/
 
             .image-left1{
@@ -1066,7 +1083,7 @@ RESPONSIVE STUFF
 
             #gallery{
               display: flex;
-              margin-right: 40px;
+              margin-right: 60px;
 
 
             }
