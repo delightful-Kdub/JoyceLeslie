@@ -303,6 +303,7 @@ li:hover ul {
   display: none;
 }
 
+/*Gallery Page CSS*/
 
 /*Category Banner*/
 
@@ -328,7 +329,7 @@ li:hover ul {
 
 
 }
-/*Gallery Page CSS*/
+
 .leftcolumn{
   width: 100px;
   height: 100%;
@@ -357,6 +358,7 @@ justify-content: space-between;
 #gallery img{
   width: 130px;
   height: 180px;
+  background-color: #FEE834
 }
 
 div.img {
@@ -448,21 +450,23 @@ th{
   width: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*End Wish List Page*/
 
+
+/*lookbook*/
+.smaller{
+  display: flex;
+}
+.smaller img{
+  margin-bottom: 3px;
+}
+
+#lookbook img{
+  margin-top: 3px;
+}
+
+
+/*end lookbook*/
 
 /*Globbal Footer*/
   /*Subscribe FORM*/
@@ -516,7 +520,13 @@ footer{
 }
 
 
+
 /* footer nav*/
+
+.mobilefootnav{
+  display: none;
+}
+
 .footnav{
   margin-top: 25px;
 }
@@ -545,7 +555,8 @@ footer{
 
 #socialmedia a:hover{
   text-decoration: underline;
-  color: #FEE834;
+  border-bottom: 1px solid #FEE834;
+
 }
 
 
@@ -850,9 +861,52 @@ RESPONSIVE STUFF
 
           }
 
-          .footnav a{
+          .footnav{
+            display: none;
+          }
+
+          .mobilefootnav{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            }
+
+          .mobilefootnav a{
+            text-decoration: none;
+            color: #ffffff;
+            font-family: Lucida Grande; Helvetica; sans-serif;
+            font-size: 10pt;
+            line-height: 25px;
+
+          }
+
+          .mobilefootnav a{
             font-size: 10pt;
           }
+
+          .mobilefootnav a:selection{
+            color: #FEE834;
+          }
+
+
+          #socialmedia{
+            text-align: center;
+            margin-top: 0px;
+            margin-top: 20px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 30px;
+          }
+
+          #socialmedia a{
+            margin-left: 0px;
+
+          }
+
+
+
 
           /*Index style*/
             /*image carousel*/
@@ -918,19 +972,33 @@ RESPONSIVE STUFF
               height: auto;
             }
 
-            /*about style*/
+            /*About style*/
+
+            .About{
+              padding-left: 20px;
+              padding-right: 20px;
+              float: none;
+              margin-top: 0px;
+              width: 100%;
+            }
+
+            .AboutLeft{
+              padding-left: 20px;
+              padding-right: 20px;
+              float: none;
+            }
 
             .image-left1{
-              margin-top: 60px;
+              display: none;
             }
 
 
             .image-right{
-              margin-top: 115px;
+              display: none;
             }
 
             .image-left2{
-              margin-top: 45px;
+              display: none;
             }
 
 
@@ -1098,7 +1166,35 @@ RESPONSIVE STUFF
               display: block;
             }
 
+            /*End Mobile Gallery style*/
 
+            /*Mobile Policy style*/
 
+            .policies{
+              padding-left: 20px;
+              padding-right: 20px;
+            }
 
+            /*End Policy Style*/
+
+            /*Lookbook style*/
+            #lookbook{
+              display: block;
+            }
+
+            .smaller{
+              display: block;
+            }
+
+            #lookbook smaller img{
+              width: 400px;
+              height: 246px;
+              display: block;
+            }
+
+            #lookbook .larger img{
+              width: 400px;
+              height: 202px;
+            }
+            /*End Lookbook Style*/
 }
