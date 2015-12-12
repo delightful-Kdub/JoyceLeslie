@@ -1098,6 +1098,7 @@ RESPONSIVE STUFF
             #mobilefilter{
               width: 100%;
               display: block;
+              z-index: +1;
 
             }
 
@@ -1153,8 +1154,10 @@ RESPONSIVE STUFF
 
             .content a{
               text-decoration: none;
+              color: #000000;
 
             }
+
 
             .filters{
               padding: 20px;
