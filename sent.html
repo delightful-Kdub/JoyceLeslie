@@ -6,6 +6,13 @@
   <link rel="stylesheet" type="text/css" href="styles/Style.css">
 </head>
 
+
+<div id="confirm"></div>
+  <div id="thanks">
+    <h2>Message Sent!</h2>
+      <p>Thanks so much for reaching out to us. Our customers are very important to us and we will respond promptly!<p>
+      <a href="Contact.html" class="confirmbutton">Close</a>
+  </div>
 <body>
   <div class="top">
     <div class="container flex space-between">
@@ -72,43 +79,42 @@
       </ul>
     </header>
   <div class="boxbreak"></div>
-<h1>Careers</h1>
 
-<div id="careers" class="container">
-<p>Joyce Leslie is a dynamic, creative, and intensively collaborative
-  environment that believes an open, honest, and supportive approach
-  empowers our people to be their best. Come join the team and see what
-  a difference you can make!
-</p>
-  <form id="careers" action="#" method="POST" enctype="multipart/form-data">
-  	<div class="left">
-  		<label for="name">Name:</label>
-  		<input id="name" class="input" name="name" type="text" value="" size="40%"><br/>
-      <label for="phone">Email:</label>
-      <input id="phone" class="input" name="phone" type="text" value="" size="40%" />
-    </div>
-    <div class="right">
-  		<label for="email">Phone:</label>
-  		<input id="email" class="input" name="email" type="text" value="" size="40%" /><br/>
-      <label for="position">Position:</label>
-  		<input id="position" class="input" name="position" type="text" value="" size="40%" />
-  	</div>
-  	<div class="row">
-  		<label for="message">Copy and Paste Resume Below:</label><br />
-  		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-  	</div>
-  	<a href="apply.html"><input id="Join" type="submit" value="Send" /></a>
-  </form>
 
+<h1>Contact Us</h1>
+
+<div id="contactus" class="container">
+<div class="left info">
+    <h3>Store Hours:</h3>
+    <p>Mon - Sat: 10:00 AM - 9:00 PM</p>
+    <p>Sun: 11:30 AM - 7 :00 PM</p>
+
+    <h3>Customer Services:</h3>
+    <p>8:30 AM - 5:00 PM EST</p>
+    <p>Phone: 201-868-6220</p>
+    <h3>Email:</h3>
+    <p><a href="mailto:customerservice@joyceleslie.com">CustomerService@JoyceLeslie.com<a></p>
+    <br>
+    <p>No phone orders</p>
 </div>
 
-<div id="mobilecareers" class="container">
-  <img src="assets/JoinTeam.png" width="315px" height="186px"/>
-  <p>Joyce Leslie is a dynamic, creative, and intensively collaborative environment that believes an open, honest, and supportive approach empowers our people to be their best. Come join the team and see what a difference you can make!
-  </p>
-  <p>We are always looking for talented people to join our team. We have retail openings and corporate career opportunities at our headquarters in Moonachie, NJ.<br/> <u>Please email a copy of your resume to:</u>
-  </p>
-  <p><b><a href="mailto:careers@JoyceLeslie.com">careers@JoyceLeslie.com<a></b></p>
+<div class="right" action="/my-handling-form-page" method="post">
+  <form id="contact" action="#" method="POST" enctype="multipart/form-data">
+  	<div class="row">
+  		<label for="name">Name:</label>
+  		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="email">Email:</label>
+  		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="message">Message:</label><br />
+  		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+  	</div>
+  	 <a href="sent.html"><input id="Join" type="Submit" value="Send!"></a>
+  </form>
+</div>
 </div>
 
 </body>

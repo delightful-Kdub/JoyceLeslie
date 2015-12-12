@@ -70,6 +70,7 @@ p{
 
 .top a:hover{
   color:#FEE834;
+
 }
 
 
@@ -428,6 +429,7 @@ div.img {
 }
 
 #contact{
+  position: static;
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -435,9 +437,7 @@ div.img {
   width:100%;
   height: 300px;
 }
-#send{
-  float: right;
-}
+
 
 #contact h3{
   margin-top: 30px;
@@ -445,7 +445,12 @@ div.img {
 
 /*end Contact Page*/
 
+/*careers*/
+#mobilecareers{
+  display: none;
+}
 
+/*end careers*/
 
 
 /*WISH LIST page*/
@@ -548,7 +553,8 @@ footer{
 }
 
 .footnav a:hover{
-  color: #FEE834;
+  /*color: #FEE834;*/
+  border-bottom: 1px solid #FEE834;
 }
 
 
@@ -566,6 +572,64 @@ footer{
 }
 
 
+/*confirmation stuff*/
+
+#confirm{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .7;
+  z-index: 1;
+}
+
+.confirm {
+  width: 70px;
+  height: 50px;
+  z-index: 2;
+}
+
+#thanks{
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  width: 40%;
+  height: 35%;
+  background: white;
+  border: 1px solid gray;
+  z-index: 2;
+  box-shadow: 10px 10px 5px #FEE834;
+  color: #000000;
+  text-align: center;
+}
+
+#thanks h2{
+  margin-top: 40px;
+}
+
+#thanks p{
+  margin: 40px;
+}
+
+#thanks a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+.confirmbutton{
+  padding: 10px;
+  background: #FEE834;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/*confirmation stuff*/
 
 
 
@@ -591,6 +655,7 @@ RESPONSIVE STUFF
     background-size: contain;
 
 }
+
 
 .top a{
   font-size: 12pt;
@@ -869,6 +934,26 @@ RESPONSIVE STUFF
 
       /*end contact*/
 
+
+/*confirmations*/
+#thanks{
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  width: 50%;
+  height: 30%;
+}
+
+#thanks h2{
+  margin-top: 25px;
+}
+
+#thanks p{
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+/*end confirmations*/
 
 }
 
@@ -1270,6 +1355,7 @@ RESPONSIVE STUFF
               margin-top: 20px;
             }
             /*end Contact style*/
+
 
 
 }
