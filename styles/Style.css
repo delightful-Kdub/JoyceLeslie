@@ -443,6 +443,11 @@ div.img {
   margin-top: 30px;
 }
 
+#footmargin{
+  position: static;
+  margin-top: 550px;
+
+}
 /*end Contact Page*/
 
 /*careers*/
