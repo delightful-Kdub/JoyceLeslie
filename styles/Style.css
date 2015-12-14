@@ -26,6 +26,7 @@ p{
   font-family: Lucida Grande; sans-serif;
 }
 
+
 .container{
     box-sizing: border-box;
     margin: 0 auto;
@@ -325,6 +326,18 @@ li:hover ul {
   margin-bottom: 20px;
 }
 
+#salebanner{
+  width: 100%;
+  height: 90px;
+  background-color: #cf0101;
+  text-align: center;
+  margin-top: -19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
 /*Breadcrumbs*/
 
 #breadcrumbs{
@@ -334,7 +347,7 @@ li:hover ul {
 }
 /*Gallery Page CSS*/
 .leftcolumn{
-  width: 100px;
+  width: 120px;
   height: 100%;
   float: left;
 }
@@ -754,7 +767,7 @@ RESPONSIVE STUFF
 /*Gallery style*/
 
 .leftcolumn{
-  width: 100px;
+  width: 120px;
 }
 
 #filter{
@@ -889,7 +902,7 @@ RESPONSIVE STUFF
 
       /*Gallery style*/
       .leftcolumn{
-        width: 100px;
+        width: 110px;
       }
 
       #filter{
@@ -1132,6 +1145,10 @@ RESPONSIVE STUFF
             /*Gallery style*/
 
             #banner{
+              display: none;
+            }
+
+            #salebanner{
               display: none;
             }
 
