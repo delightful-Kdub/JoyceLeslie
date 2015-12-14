@@ -406,6 +406,68 @@ div.img {
 /*End Gallery Page CSS*/
 
 
+/*Product Page*/
+
+#mobileproductimage{
+  display: none;
+}
+
+.mobileproductbreadcrumbs{
+  display: none;
+}
+
+.mobileproductbreadcrumbs2{
+  display: none;
+}
+
+.endtable{
+  margin-top: -30px;
+}
+.endtable h3{
+    text-align: left;
+}
+
+.endtable .specifics{
+  border: 0;
+}
+
+.endtable .specificschild{
+  margin-bottom: 0;
+}
+
+.endtable p{
+  margin-top: -180px;
+}
+
+.endtable img{
+  margin-right: 60px;
+}
+
+.thumbnails{
+  text-align: center;
+}
+
+.addtolist{
+  text-align: right;
+  margin-right: 5%;
+
+}
+
+#productbreadcrumbs{
+  width: 100%;
+  height: 65px;
+  background-color: #FFF9CE;
+  margin-top: -16px;
+  margin-bottom: 50px;
+}
+
+#productbreadcrumbs p{
+  margin-left: 10%;
+  padding-top: 20px;
+}
+/*end Product Page*/
+
+
 
 /*About Text*/
 .About{
@@ -472,6 +534,15 @@ div.img {
 
 
 /*WISH LIST page*/
+
+table{
+  margin-left: 40px;
+
+}
+
+table h3{
+  text-align: center;
+}
 th{
   text-align: left;
 
@@ -479,6 +550,86 @@ th{
 
 .specifics{
   width: 50%;
+  border-bottom: 1px solid gray;
+}
+
+.specificschild{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.color1{
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+}
+
+.color2{
+  width: 30px;
+  height: 30px;
+  background-color: #f9f3eb;
+}
+
+.color3{
+  width: 30px;
+  height: 30px;
+  background-color: #0095b6;
+}
+
+
+.colorchoice{
+  border: 3px solid #FEE834;
+}
+
+.notchosen{
+  border: 3px solid white;
+}
+
+
+.size{
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.size a{
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+
+.sizechoice{
+  background-color: #FEE834;
+}
+
+
+.remove{
+  text-align: center;
+  margin-top: -63px;
+
+}
+
+.remove input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+}
+
+.editlist{
+  text-align: right;
+  margin-right: 110px;
+}
+
+.editlist a:hover{
+  border-bottom: 2px solid #FEE834;
+}
+
+.endtable{
+    margin-bottom: 200px;
 }
 
 /*End Wish List Page*/
@@ -807,6 +958,20 @@ RESPONSIVE STUFF
   height: 213px;
 }
 
+/*wishlist*/
+.editlist{
+  text-align: right;
+  margin-right: 80px;
+}
+
+table{
+  margin-left: 25px;
+
+}
+
+
+/*end wishlist*/
+
 }
 
 
@@ -900,6 +1065,19 @@ RESPONSIVE STUFF
       }
 
 
+      /*wishlist*/
+      .editlist{
+        text-align: right;
+        margin-right: 50px;
+      }
+
+
+      table{
+        margin-left: 15px;
+
+      }
+      /*end wishlist*/
+
       /*Gallery style*/
       .leftcolumn{
         width: 110px;
@@ -939,6 +1117,15 @@ RESPONSIVE STUFF
         width: 246px;
         height: 163px;
       }
+      /*end gallery*/
+
+      /*product page*/
+
+
+
+
+
+      /*end product page*/
 
 
       /*contact*/
@@ -1141,6 +1328,51 @@ RESPONSIVE STUFF
               }
 
               /*end about style*/
+
+
+              /*wishlist*/
+              table{
+                margin-left: 10px;
+
+              }
+
+              .wishlistproductname{
+                margin-left: -100px;
+              }
+
+              .editlist{
+                text-align: right;
+                margin-right: 25px;
+              }
+
+              .specificschild{
+                width: 70%;
+                display: block;
+                justify-content: space-between;
+                margin-bottom: 50px;
+              }
+
+
+              .size{
+                width: 30px;
+                height: 30px;
+                border: 1px solid gray;
+                text-align: center;
+                margin-top: 3px;
+              }
+
+              .remove{
+                text-align: center;
+                margin-top: -110px;
+
+              }
+
+              .remove input[type="checkbox"]{
+                margin-top: 25px;
+              }
+
+              /*end wishlist*/
+
 
             /*Gallery style*/
 
@@ -1365,6 +1597,69 @@ RESPONSIVE STUFF
 
             /*end Careers style*/
 
+
+            /*product page*/
+
+          .productimage{
+            display: none;
+          }
+
+          #productbreadcrumbs{
+            margin-bottom: 70px;
+          }
+
+          #productbreadcrumbs a{
+            text-decoration: none;
+            color: inherit;
+            text-align: center;
+            padding: 23px;
+          }
+
+          #mobileproductimage{
+            display: block;
+            text-align: center;
+          }
+          .productbreadcrumbs{
+            display: none;
+          }
+
+
+          .mobileproductbreadcrumbs{
+            display: block;
+
+          }
+
+          .mobileproductbreadcrumbs2{
+            display: block;
+            margin-top: -100px;
+          }
+
+
+
+          .endtable{
+            margin-left: 25px;
+            margin-bottom: 0;
+          }
+
+          .endtable p{
+            margin-top: 0px;
+          }
+
+          .endtable .specificschild{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+          }
+
+          .addtolist{
+            text-align: right;
+            margin-right: 5%;
+            margin-bottom: 5px;
+
+          }
+
+            /*end product page*/
 
             /*Contact style*/
 
